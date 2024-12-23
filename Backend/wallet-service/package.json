@@ -1,0 +1,19 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1",
+    "web3-validator": "^2.0.6"
+  }
+}
