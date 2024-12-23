@@ -7,6 +7,12 @@ Our team **SEA KING INTERN SHIPS**, after hours of brainstorming - coding - refi
 
 ![team photo](public/team_photo.jpeg)
 
+## Team Members
+
+- [Kedar Vartak](https://www.linkedin.com/in/kedar-vartak20/) - **Team Lead**
+- [Tirthraj Mahajan](https://www.linkedin.com/in/tirthraj-mahajan/)
+- [Harsh Badagandi](https://www.linkedin.com/in/harsh-badagandi-57558225a/)
+
 ## Problem Statement
 
 Creating games using blockchain technology. Explore the potential of play-to-earn and decentralized gaming.
