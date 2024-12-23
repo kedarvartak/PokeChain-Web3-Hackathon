@@ -1,0 +1,10 @@
+flux
+Flask
+psycopg2-binary
+python-dotenv
+diffusers
+transformers
+torch
+accelerate
+google-generativeai
+uuid
