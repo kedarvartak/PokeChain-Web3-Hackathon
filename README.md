@@ -9,7 +9,7 @@ Our team **SEA KING INTERN SHIPS**, after hours of brainstorming - coding - refi
 
 ## Team Members
 
-- [Kedar Vartak](https://www.linkedin.com/in/kedar-vartak20/) - **Team Lead**
+- [Kedar Vartak](https://www.linkedin.com/in/kedar-vartak20/) 
 - [Tirthraj Mahajan](https://www.linkedin.com/in/tirthraj-mahajan/)
 - [Harsh Badagandi](https://www.linkedin.com/in/harsh-badagandi-57558225a/)
 
