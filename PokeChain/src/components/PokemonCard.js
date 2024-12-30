@@ -109,11 +109,11 @@ const PokemonCard = ({ pokemon }) => {
   // Add this effect to sync with contract data when training status changes
   useEffect(() => {
     const syncWithContract = async () => {
-      if (!isTraining && pokemon.id) {
+      if (!isTraining && pokemon.uuid) {
         try {
-          const updatedPokemon = await pokemonService.getPokemonData(pokemon.id);
-          setCurrentXP(updatedPokemon.xp);
-          setPrevXP(updatedPokemon.xp);
+          const data = await pokemonService.getPokemonData(pokemon.uuid);
+          setCurrentXP(data.xp);
+          setPrevXP(data.xp);
         } catch (error) {
           console.error('Error syncing with contract:', error);
         }
@@ -121,7 +121,16 @@ const PokemonCard = ({ pokemon }) => {
     };
 
     syncWithContract();
-  }, [isTraining, pokemon.id]);
+  }, [isTraining, pokemon.uuid]);
+
+  const handleStartTraining = async (groundId) => {
+    try {
+      await pokemonService.startTraining(pokemon.uuid, groundId);
+      // ... rest of the code
+    } catch (error) {
+      console.error('Error starting training:', error);
+    }
+  };
 
   return (
     <motion.div

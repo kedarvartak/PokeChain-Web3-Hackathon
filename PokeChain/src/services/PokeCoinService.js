@@ -11,7 +11,7 @@ class PokeCoinService {
             const provider = new ethers.BrowserProvider(this.provider);
             const signer = await provider.getSigner();
             this.contract = new ethers.Contract(
-                '0x49149a233de6E4cD6835971506F47EE5862289c1',
+                '0x2498e8059929e18e2a2cED4e32ef145fa2F4a744',
                 PokeCoin.abi,
                 signer
             );

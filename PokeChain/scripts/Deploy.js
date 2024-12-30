@@ -7,7 +7,7 @@ async function main() {
     console.log("Getting existing PokeCoin contract...");
     const PokeCoin = await hre.ethers.getContractFactory("PokeCoin");
     // Use the most recently deployed PokeCoin address i0x9e7F7d0E8b8F38e3CF2b3F7dd362ba2e9E82baa4the takaychay address
-    const pokeCoin = PokeCoin.attach("0x49149a233de6E4cD6835971506F47EE5862289c1"); // Latest deployed address
+    const pokeCoin = PokeCoin.attach("0x2498e8059929e18e2a2cED4e32ef145fa2F4a744"); // Latest deployed address
     console.log("Found PokeCoin at:", await pokeCoin.getAddress());
 
     // Deploy PokemonNFT

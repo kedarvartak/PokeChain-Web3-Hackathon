@@ -5,10 +5,10 @@ import Footer from './Footer';
 
 const UnityGame = () => {
   const { unityProvider, isLoaded, loadingProgression } = useUnityContext({
-    loaderUrl: "/unity/Build/unity.loader.js",
-    dataUrl: "/unity/Build/unity.data",
-    frameworkUrl: "/unity/Build/unity.framework.js",
-    codeUrl: "/unity/Build/unity.wasm",
+    loaderUrl: "/assets/unity/Build/unity.loader.js",
+    dataUrl: "/assets/unity/Build/unity.data",
+    frameworkUrl: "/assets/unity/Build/unity.framework.js",
+    codeUrl: "/assets/unity/Build/unity.wasm",
   });
 
   return (
@@ -16,7 +16,7 @@ const UnityGame = () => {
       <Navbar />
       
       {/* Header Section */}
-      <div className="w-full bg-[#4ECDC4] p-8 border-y-2 border-black">
+      <div className="w-full bg-[#4ECDC4] p-8 pt-32 border-y-2 border-black">
         <h1 className="text-4xl font-black text-center text-black">
           Decentralized Emulator
         </h1>

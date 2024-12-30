@@ -268,8 +268,8 @@
       ]
     },
     "D:\\retry\\PokeChain\\contracts\\PokeContract.sol": {
-      "lastModificationDate": 1734793841820,
-      "contentHash": "5196bfdb7a5ef0c56b3511c5beb80eff",
+      "lastModificationDate": 1735219284813,
+      "contentHash": "7cfba9316b038d3adc088376488ad9cb",
       "sourceName": "contracts/PokeContract.sol",
       "solcConfig": {
         "version": "0.8.20",
